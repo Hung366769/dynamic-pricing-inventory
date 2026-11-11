@@ -1,0 +1,26 @@
+{
+  "train_end": "2018-04-01",
+  "train_rows": 516,
+  "test_rows_total": 160,
+  "train_products": 52,
+  "elasticity_estimate": -2.856268588194113,
+  "elasticity_ci95_low": -4.146358917507614,
+  "elasticity_ci95_high": -1.5661782588806115,
+  "elasticity_p_value_clustered_by_product": 1.4288960313443728e-05,
+  "r_squared_train": 0.40317681183575194,
+  "adjusted_r_squared_train": 0.31696901798980504,
+  "formula": "log_qty ~ log_price + log_competitor_price + C(product_id) + C(month_num) + C(year_num)",
+  "metrics": {
+    "test_rows": 160,
+    "test_rows_excluded_unseen_products": 0,
+    "mae_qty": 27.547585536963602,
+    "rmse_qty": 36.135561409089796,
+    "wape_percent": 206.7361015907212,
+    "smape_percent": 108.69515186590885,
+    "naive_product_median_mae_qty": 11.325,
+    "naive_product_median_rmse_qty": 16.899149386877436,
+    "naive_product_median_wape_percent": 84.9906191369606,
+    "naive_product_median_smape_percent": 77.93653127214435
+  },
+  "interpretation_warning": "Observational log-log price coefficient with product, month and year controls. Do not interpret as causal without a credible identification strategy."
+}

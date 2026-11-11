@@ -1,0 +1,15 @@
+{
+  "train_end": "2018-04-01",
+  "train_rows": 516,
+  "test_rows": 160,
+  "elasticity_used": -2.8562685881940957,
+  "seeds": [
+    42,
+    7,
+    21,
+    2025,
+    2026
+  ],
+  "episodes_per_seed": 1000,
+  "note": "All policy metrics are from the same historical-replay counterfactual simulator and remain conditional on the documented assumptions."
+}

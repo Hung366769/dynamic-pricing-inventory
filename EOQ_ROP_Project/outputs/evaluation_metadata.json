@@ -1,0 +1,8 @@
+{
+  "train_end_inclusive": "2018-04-01",
+  "train_rows": 516,
+  "test_rows": 160,
+  "elasticity_estimate_used": -2.8562685881940957,
+  "evaluation_type": "historical replay counterfactual simulation",
+  "caveat": "Observed held-out qty anchors demand at observed price, then demand is scaled by estimated elasticity. Inventory and unit-cost assumptions are simulated; results are not causal or real-world performance estimates."
+}
